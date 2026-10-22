@@ -156,7 +156,7 @@ module.exports = {
             return interaction.editReply("Could not find Discord server.");
         }
 
-        const guildPrefix = "Sort";
+        const guildPrefix = "TBUH";
 
         const result = await fetchWynncraft(`/guild/prefix/${guildPrefix}?identifier=uuid`);
         if (!result.success) {
