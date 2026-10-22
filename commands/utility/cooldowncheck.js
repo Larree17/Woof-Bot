@@ -4,7 +4,7 @@ const config = require("../../config.json");
 
 module.exports = {
     async execute(interaction) {
-        const result = await fetchWynncraft("/guild/prefix/Sort?identifier=uuid");
+        const result = await fetchWynncraft("/guild/prefix/TBUH?identifier=uuid");
         if (!result.success) {
             return await interaction.editReply(result.error);
         }
